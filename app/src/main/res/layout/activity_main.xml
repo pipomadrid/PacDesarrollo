@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E201041B"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ImagenBienvenida"
+        android:layout_width="389dp"
+        android:layout_height="234dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/welcome" />
+
+    <Button
+        android:id="@+id/botonAct2"
+        android:layout_width="150dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginBottom="150dp"
+        android:backgroundTint="#8B758FD3"
+        android:text="@string/BotonTabla"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/botonAct3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImagenBienvenida" />
+
+    <Button
+        android:id="@+id/botonAct3"
+        android:layout_width="150dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="150dp"
+        android:backgroundTint="#8B758FD3"
+        android:foregroundTint="#F1E9E9"
+        android:text="@string/BotonMusica"
+        android:textSize="16sp"
+        app:iconTint="#F1EDED"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImagenBienvenida"
+        app:rippleColor="#FFFFFF" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="215dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

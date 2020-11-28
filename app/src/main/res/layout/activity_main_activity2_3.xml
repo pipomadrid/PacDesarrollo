@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2_3"
+    android:background="#E201041B">
+
+
+
+        <Button
+            android:id="@+id/prueba"
+            android:layout_width="150dp"
+            android:layout_height="106dp"
+            android:backgroundTint="#8B758FD3"
+            android:text="@string/BotonConsulta2_3"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et3"
+            app:layout_constraintVertical_bias="0.133" />
+
+        <Button
+            android:id="@+id/botonVolverAct2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:backgroundTint="#9C5F20"
+            android:text="@string/BotonVolver2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="@string/etCampo1Consulta"
+        android:inputType="textPersonName"
+        android:textColor="#F4F0F0"
+        android:textColorHint="#F1ECEC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et1" />
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="@string/etCampo2Consulta"
+        android:inputType="textPersonName"
+        android:textColor="#F3F0F0"
+        android:textColorHint="#F3EFEF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et2" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="@string/etCodigoConsulta"
+        android:inputType="number"
+        android:textColorHint="#ECE6E6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tituloTabla" />
+
+    <EditText
+        android:id="@+id/tituloTabla"
+        android:layout_width="284dp"
+        android:layout_height="61dp"
+        android:ems="10"
+        android:hint="@string/tituloTabla"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#F8F4F4"
+        android:textColorHint="#ECEAEA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="43dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

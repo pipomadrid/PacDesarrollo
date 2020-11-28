@@ -1,0 +1,52 @@
+<resources>
+
+    //Strings Activity 1
+    <string name="app_name">PacDesarrollo</string>
+    <string name="BotonTabla">Tabla</string>
+    <string name="BotonMusica">Musica</string>
+
+    //Strings Activity 2
+    <string name="BotonCrear">Crear Tabla</string>
+    <string name="BotonInsertar">Insertar Datos</string>
+    <string name="BotonConsultar">Consultar Datos</string>
+
+    //String Activity 2_1
+    <string name="EtNombreTabla">Nombre de la tabla</string>
+    <string name="EtCampo1">Campo nº1</string>
+    <string name="EtCampo2">Campo nº2</string>
+    <string name="BotonConfirmar">Crear</string>
+    <string name="BotonVolver2">Volver a Activity 2</string>
+
+    //Strings Activity 2_2
+    <string name="BotonInsertar2">Insertar</string>
+    <string name="etInsertarCodigo">codigo</string>
+    <string name="etInsertarCampo1">campo nº1</string>
+    <string name="etInsertarCampo2">campo nº2</string>
+
+    //Strings Activity 2_3
+    <string name="tituloTabla">Tabla</string>
+    <string name="BotonConsulta2_3">Consultar</string>
+    <string name="etCodigoConsulta">codigo</string>
+    <string name="etCampo1Consulta">campo nº1</string>
+    <string name="etCampo2Consulta">campo nº2</string>
+
+
+    //Strings Activity 3
+    <string name="BotonReproductor">Reproductor Musica</string>
+    <string name="BotonDetenerRep">Detener Reproductor</string>
+    <string name="BotonVolver">Volver a Activity 1</string>
+
+    //Strings Activity 3_1
+    <string name="BotonBlock">Block</string>
+    <string name="BotonVolver3">Volver a Activity 3</string>
+    <string name="title_activity_main_activity2_2">MainActivity2_2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>
